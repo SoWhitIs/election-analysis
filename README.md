@@ -14,23 +14,23 @@ Contracted by Colorado’s Board of Elections to complete the audit of a recent 
 ## Resources
 * Data Source: election_resuts.csv
 * Software: Python 3.7.6 64-bit, Visual Studio Code, 1.52. 1
-## Summary
+## Summary Analysis: _By the Numbers_
 Analysis of the election illustrated the following:
 
 * There were _**369,711**_ votes cast in the election.
 ### _By Canditate_
 * The candidates were:
-   * Candidate 1
-   * Candidate 2
-   * Candidate 3
+   * Charles Casper Stockham
+   * Diana DeGette 
+   * Raymon Anthony Doane
 
 * The Candidates results were:
-    * Candidate 1 received “x”%” of the  vote and “y” number of votes 
-    * Candidate 1 received “x”%” of the  vote and “y” number of votes
-    * Candidate 1 received “x”%” of the  vote and “y” number of votes
+    * Candidate Charles Casper Stockham1 received **23.0%** of the  vote and **85, 213** number of votes 
+    * Candidate Diana DeGette received **73.8%** of the  vote and **272,892** number of votes
+    * Candidate Raymon Anthony Doane received **3.1%** of the  vote and **11,606** number of votes
 
 * The Winner of the election was:
-    * Candidate (1, 2, 3) Who received “x%” of the vote and a ”y” number of votes.
+    * Candidate Diana DeGette who received **73.8%”** of the vote and **272,892** number of votes.
 ### _By County_
 ##
 
