@@ -4,7 +4,8 @@
 
 Contracted by Colorado’s Board of Elections to complete the audit of a recent local congressional election.
 
-    Tasks included: 
+**Tasks included:**
+
 1.	Evaluate the number of votes cast
 2.	Compile a complete list of candidates who received votes
 3.	Evaluate the total number of votes each candidate received
@@ -26,10 +27,12 @@ Analysis of the election illustrated the following:
 
 * The Candidates results were:
     * Candidate Charles Casper Stockham1 received **23.0%** of the  vote and **85, 213** number of votes 
+
     * Candidate Diana DeGette received **73.8%** of the  vote and **272,892** number of votes
+
     * Candidate Raymon Anthony Doane received **3.1%** of the  vote and **11,606** number of votes
 
-* The Winner of the election was:
+* The Winner of the election _was_:
     * Candidate Diana DeGette who received **73.8%”** of the vote and **272,892** number of votes.
 ### _By County_
 ##
