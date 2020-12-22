@@ -33,7 +33,7 @@ Analysis of the election illustrated the following:
     * Candidate Raymon Anthony Doane received **3.1%** of the  vote and **11,606** number of votes
 
 * The Winner of the election _was_:
-    * Candidate Diana DeGette who received **73.8%”** of the vote and **272,892** number of votes.
+    * Candidate Diana DeGette who received **73.8%** of the vote and **272,892** number of votes.
 ### _By County_
 ##
 
