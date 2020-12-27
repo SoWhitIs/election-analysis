@@ -17,7 +17,7 @@ Contracted by Colorado’s Board of Elections to complete the audit of a recent 
 * Software: Python 3.7.6 64-bit, Visual Studio Code, 1.52. 1
 
 ## Summary Analysis: _By the Numbers_
-Analysis of the election illustrated the following: <img align="right" src="additionalresources/election_results.png">
+Analysis of the election illustrated the following ( as seen in image on the right): <img align="right" src="additionalresources/election_results.png">
 * There were _**369,711**_ votes cast in the election.
 
 ### _By Canditate_
@@ -42,10 +42,55 @@ Analysis of the election illustrated the following: <img align="right" src="addi
  * With **10.5%** of the votes and **38,855** votes, _**Jefferson County**_ comes in second place in the voter turnout tabulation. 
 
  * Lastly, _**Arapahoe County**_ with  **6.7%**  of the votes and **24,801** of the number of votes falls in third in the voter turnout tabulation by county. 
-  
-
+ 
 ## Election Audit Summary
+While the attached script allowed for votes to be tabulated to showcase the election turnout per candidate and county of _this_ election, the use of the script can be implemented in future election audits, even if the county and candidate count in correlation to district changes. This makes for a more time efficient and convenient practice to pull election data and make appropriate analysis.  
 
-While, the attahed script allowed for the votes to be tabulated to showcase the election turnout per candidate and county of _this_ particular election, the use of the script can be implemented in furture elections. 
+### Alterative Analysis
+If need be the script can be altered to only include the results by county or candidate, exclusively. This can be done by simply *removing* the script used to calculate either county or candidate results, respectively.
 
-If need be the script can be altered to include additional candidates, 
+As seen below, by removing the candidate calculations, the results by county would only be printed. 
+
+
+Another, option to audit analysis is to view the percentage of votes per candidate and county as an unrounded number or rounded to specific decimal point. This would prove rather useful if there was ever a close election or recount to which determining the winning candidate was even more crucial and literally relied on the very last number, i.e., hundredth or thousandth of percentage.
+
+To accomplish this simply edit the script where it reflects the decimal places, (the current ":.1f" reflects a rounded number of one decimal place) to round to or show as unrounded as seen below: 
+
+*    **Unrounded Numbers**: Replace ":.1f" to ":," in {tally_percentage:}, {tally:}, {vote_percentage:}% ({votes:}
+
+
+    tally = county_votes.get(county_name)
+    tally_percentage = float(tally) / float (total_votes) * 100
+        county_results = (
+            f"{county_name}: {tally_percentage:,}% ({tally:,})\n") 
+
+    votes = candidate_votes.get(candidate_name)
+    vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (
+            f"{candidate_name}: {vote_percentage:,}% ({votes:,})\n")
+
+   _Results printed: Unrounded numbers_ 
+
+<p align="center">
+  <img src="additionalresources/election_result_unrounded.png" />
+</p>
+
+
+*   **Rounded Numbers**: Replace ":.1f" to ":.3f" in {tally_percentage:}, {tally:}, {vote_percentage:}% ({votes:}. 
+
+
+        tally = county_votes.get(county_name)
+        tally_percentage = float(tally) / float (total_votes) * 100
+        county_results = (
+            f"{county_name}: {tally_percentage:.3f}% ({tally:.3f})\n") 
+
+        votes = candidate_votes.get(candidate_name)
+        vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (
+            f"{candidate_name}: {vote_percentage:.3f}% ({votes:,})\n")
+
+    _Results printed: Rounded votes to three decimal places_
+
+<p align="center">
+  <img src="additionalresources/election_result_roundeddecimal.png" />
+</p>
