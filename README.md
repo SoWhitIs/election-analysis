@@ -71,7 +71,7 @@ To accomplish this simply edit the script where it reflects the decimal places, 
 
 
 <p align="center">
-   _Results printed: Unrounded numbers_ 
+  <i><b>Results printed: Unrounded numbers</b></i> 
  </p>
 
 
@@ -93,9 +93,10 @@ To accomplish this simply edit the script where it reflects the decimal places, 
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.3f}% ({votes:,})\n")
 
-
-
-    _Results printed: Rounded votes to three decimal places_
+<p align="center">
+  <i><b>Results printed: Rounded votes to three decimal places</b></i> 
+ </p>
+    
 
 <p align="center">
   <img src="additionalresources/election_result_roundeddecimal.png" />
