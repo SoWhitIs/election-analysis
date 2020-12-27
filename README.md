@@ -39,9 +39,9 @@ Analysis of the election illustrated the following ( as seen in image on the rig
 ### _By County_
  * The _largest_ voter turnout was from **Denver County**, recieveing **82.8%** of the votes and **306,055** number of votes.
 
- * With **10.5%** of the votes and **38,855** votes, _**Jefferson County**_ comes in second place in the voter turnout tabulation. 
+ * With **10.5%** of the votes and **38,855** votes, _**Jefferson County**_ came in second place in the voter turnout tabulation. 
 
- * Lastly, _**Arapahoe County**_ with  **6.7%**  of the votes and **24,801** of the number of votes falls in third in the voter turnout tabulation by county. 
+ * Lastly, _**Arapahoe County**_ with  **6.7%**  of the votes and **24,801** of the number of votes fell third in the voter turnout tabulation by county. 
  
 ## Election Audit Summary
 While the attached script allowed for votes to be tabulated to showcase the election turnout per candidate and county of _this_ election, the use of the script can be implemented in future election audits, even if the county and candidate count in correlation to district changes. This makes for a more time efficient and convenient practice to pull election data and make appropriate analysis.  
@@ -79,6 +79,7 @@ To accomplish this simply edit the script where it reflects the decimal places, 
   <img src="additionalresources/election_result_unrounded.png" />
 </p>
 
+***
 
 *   **Rounded Numbers**: Replace ":.1f" to ":.3f" in {tally_percentage:}, {tally:}, {vote_percentage:}% ({votes:}. 
 
