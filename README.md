@@ -70,8 +70,10 @@ To accomplish this simply edit the script where it reflects the decimal places, 
             f"{candidate_name}: {vote_percentage:,}% ({votes:,})\n")
 
 
-
+<p align="center">
    _Results printed: Unrounded numbers_ 
+ </p>
+
 
 <p align="center">
   <img src="additionalresources/election_result_unrounded.png" />
