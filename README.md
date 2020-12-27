@@ -69,6 +69,8 @@ To accomplish this simply edit the script where it reflects the decimal places, 
         candidate_results = (
             f"{candidate_name}: {vote_percentage:,}% ({votes:,})\n")
 
+
+
    _Results printed: Unrounded numbers_ 
 
 <p align="center">
@@ -88,6 +90,8 @@ To accomplish this simply edit the script where it reflects the decimal places, 
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.3f}% ({votes:,})\n")
+
+
 
     _Results printed: Rounded votes to three decimal places_
 
