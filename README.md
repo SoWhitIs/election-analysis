@@ -102,3 +102,7 @@ To accomplish this simply edit the script where it reflects the decimal places, 
 <p align="center">
   <img src="additionalresources/election_result_roundeddecimal.png" />
 </p>
+
+
+#### Author
+Whitney Gardner
