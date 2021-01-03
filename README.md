@@ -1,5 +1,5 @@
 
-# Election Analysis: _Votes are in!_
+#  _Votes are in!_ || Election Analysis
 ## Overview of Project
 
 Contracted by Colorado’s Board of Elections to complete the audit of a recent local congressional election.
