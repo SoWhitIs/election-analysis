@@ -105,4 +105,4 @@ To accomplish this simply edit the script where it reflects the decimal places, 
 
 
 #### Author
-Whitney Gardner
+_Whitney D. Gardner_
