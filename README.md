@@ -14,7 +14,7 @@ Contracted by Colorado’s Board of Elections to complete the audit of a recent 
 
 ## Resources
 * Data Source: election_resuts.csv
-* Software: Python 3.7.6 64-bit, Visual Studio Code, 1.52. 1
+* Software: Python 3.7.6 64-bit | Visual Studio Code, 1.52. 1
 
 ## Summary Analysis: _By the Numbers_
 Analysis of the election illustrated the following ( as seen in image on the right): <img align="right" src="additionalresources/election_results.png">
