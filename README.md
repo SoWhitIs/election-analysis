@@ -17,7 +17,7 @@ Contracted by Colorado’s Board of Elections to complete the audit of a recent 
 * Software: Python 3.7.6 64-bit | Visual Studio Code, 1.52. 1
 
 ## Summary Analysis: _By the Numbers_
-Analysis of the election illustrated the following ( as seen in image on the right): <img align="right" src="additionalresources/election_results.png">
+Analysis of the election illustrated the following (as seen in image on the right): <img align="right" src="additionalresources/election_results.png">
 * There were _**369,711**_ votes cast in the election.
 
 ### _By Canditate_
