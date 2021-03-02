@@ -103,6 +103,6 @@ To accomplish this simply edit the script where it reflects the decimal places, 
   <img src="additionalresources/election_result_roundeddecimal.png" />
 </p>
 
-
+---
 #### Author
 _Whitney D. Gardner_
